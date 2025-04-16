@@ -1,0 +1,31 @@
+{
+  "name": "ajs_4_pure_functions",
+  "version": "1.0.0",
+  "description": "[![Build status](https://ci.appveyor.com/api/projects/status/r3vqvm30wsffid56?svg=true)](https://ci.appveyor.com/project/Maksim-Gavr-04/ajs-4-pure-functions)",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server src",
+    "build": "babel src -d dist",
+    "lint": "eslint .",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Niklles/ajs_4_pure_functions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Niklles/ajs_4_pure_functions/issues"
+  },
+  "homepage": "https://github.com/Niklles/ajs_4_pure_functions#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.27.0",
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "core-js": "^3.41.0"
+  }
+}
